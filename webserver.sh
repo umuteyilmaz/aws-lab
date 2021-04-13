@@ -10,7 +10,7 @@ sudo systemctl enable httpd.service;
 sudo systemctl start httpd.service;
 
 sudo echo '<html>' > $DEFAULTPATH
-sudo echo '<h1> H1! Welcome To My First Website in AWS </h1>' >> $DEFAULTPATH
+sudo echo '<h1> H1! Welcome To My First Website in AWS EC2 </h1>' >> $DEFAULTPATH
 sudo echo '</html>' >> $DEFAULTPATH
 
 ## END ##
