@@ -1,7 +1,7 @@
 #!/bin/bash
 ##To Install HTTPD Server and Start Service
 DEFAULTPATH="/var/www/html/index.html"
-sudo yum update –y; 
+#sudo yum update –y; 
 sudo yum install httpd –y; 
 sudo service httpd start;
 sudo chkconfig httpd on;
